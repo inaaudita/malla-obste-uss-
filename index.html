@@ -2,12 +2,56 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <title>Malla Interactiva</title>
-  <link rel="stylesheet" href="styles.css">
+  <title>Malla Obstetricia</title>
+  <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-  <h1>Malla Interactiva</h1>
-  <div id="grid-container"></div>
-  <script src="script.js"></script>
+  <h1>Malla Curricular - Obstetricia</h1>
+  <div class="malla">
+
+    <div class="semestre">
+      <h2>1er Semestre</h2>
+      <div class="ramos">
+        <div class="ramo">Inglés General</div>
+        <div class="ramo">Biología Celular</div>
+        <div class="ramo">Anatomía Humana</div>
+        <div class="ramo">Química General y Orgánica</div>
+        <div class="ramo">Fundamentos de la Matronería</div>
+      </div>
+    </div>
+
+    <div class="semestre">
+      <h2>2do Semestre</h2>
+      <div class="ramos">
+        <div class="ramo" title="Requiere: Biología Celular, Anatomía Humana">Fisiología Humana</div>
+        <div class="ramo" title="Requiere: Biología Celular">Histoembriología</div>
+        <div class="ramo" title="Requiere: Biología Celular, Química General y Orgánica">Bioquímica General</div>
+        <div class="ramo">Antropología</div>
+        <div class="ramo" title="Requiere: Fundamentos de la Matronería">Fundamentos de la SSyR</div>
+        <div class="ramo">Psicología del Curso de la Vida</div>
+        <div class="ramo" title="Requiere: Inglés General">Atención en Salud basada en la Evidencia</div>
+        <div class="ramo">Estrategias para el Aprendizaje</div>
+      </div>
+    </div>
+
+    <div class="semestre">
+      <h2>3er Semestre</h2>
+      <div class="ramos">
+        <div class="ramo" title="Requiere: Antropología">Ética</div>
+        <div class="ramo" title="Requiere: Histoembriología">Embriología y Genética</div>
+        <div class="ramo" title="Requiere: Biología Celular">Microbiología General</div>
+        <div class="ramo" title="Requiere: Fisiología, Bioquímica">Farmacología General</div>
+        <div class="ramo" title="Requiere: Fisiología, Bioquímica">Farmacología Aplicada</div>
+        <div class="ramo" title="Requiere: Anatomía Humana">Anatomía Aplicada</div>
+        <div class="ramo" title="Requiere: Antropología, Fundamentos de la SSyR">Género y Salud</div>
+        <div class="ramo">Salud Pública I</div>
+      </div>
+    </div>
+
+    <!-- Agregamos los siguientes semestres igual si tú quieres -->
+
+  </div>
+
+  <script src="js/script.js"></script>
 </body>
 </html>
